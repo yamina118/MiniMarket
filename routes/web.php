@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\StaticController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,12 +12,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/home',[StaticController::class , 'home']);
+Route::get('/categories',[StaticController::class , 'categories']);
 
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/main', function () {
-    return view('main');
-});
+
 
 
