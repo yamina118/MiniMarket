@@ -16,7 +16,7 @@ Route::get('/home',[StaticController::class , 'home']);
 Route::get('/categories',[StaticController::class , 'categories']);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
