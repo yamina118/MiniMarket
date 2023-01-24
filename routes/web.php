@@ -14,6 +14,9 @@ use App\Http\Controllers\StaticController;
 */
 Route::get('/home',[StaticController::class , 'home']);
 Route::get('/categories',[StaticController::class , 'categories']);
+Route::get('/storagesys&units',[StaticController::class , 'storagesysunits']);
+Route::get('/sofas&armchairs',[StaticController::class , 'sofasarmchairs']);
+Route::get('/tables&chairs',[StaticController::class , 'tableschairs']);
 
 Route::get('/', function () {
     return view('main');

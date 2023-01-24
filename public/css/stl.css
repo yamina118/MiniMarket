@@ -4,6 +4,7 @@
 
 }
 /*hello */
+
 *{
     margin:0; padding:0;
     box-sizing: border-box;
@@ -243,6 +244,14 @@ header .fa-bars{
     font-weight: 700;
     color: #333;
     margin:2rem 0!important;
+    
+}
+.categoriem{
+    font-size: 4rem;
+    font-weight: 700;
+    color:var(--yallow);
+    margin: 4rem 2rem !important;
+    
 }
 .products .box-container .box{
     flex:1 1 30rem;

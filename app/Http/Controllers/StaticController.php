@@ -15,4 +15,15 @@ class StaticController extends Controller
 
 
     }
+
+    public function sofasarmchairs(){
+        return view('sofas&armchairs');
+    }   
+    public function storagesysunits(){
+        return view('storagesys&units');
+    }   
+    public function tableschairs(){
+        return view('tables&chairs');
+    }   
+   
 }
