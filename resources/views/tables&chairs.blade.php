@@ -7,7 +7,7 @@
 <section class="products" id="products">
 
     <h1 class="heading"> latest <span>products</span> </h1>
-    <h2 class="categoriem">Tables and Chairs</h2>
+    <h2 class="categoriem">Tables & Chairs</h2>
     <div class="box-container chaire">
 
         <div class="box">
