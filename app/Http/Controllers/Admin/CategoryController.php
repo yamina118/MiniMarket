@@ -20,4 +20,13 @@ class CategoryController extends Controller
        $category =new Category();
        
     } 
+    public function storagesysunits(){
+        return view('layouts.storagesys&units');
+    }
+    public function sofasarmchairs(){
+        return view('layouts.sofas&armchairs');
+    }   
+    public function tableschairs(){
+        return view('layouts.tables&chairs');
+    }
 }

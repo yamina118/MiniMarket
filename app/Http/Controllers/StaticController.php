@@ -12,7 +12,15 @@ class StaticController extends Controller
     }
     public function categories(){
         return view('categories');
+    }
 
-
+    public function sofasarmchairs(){
+        return view('layouts.sofas&armchairs');
+    }   
+    public function storagesysunits(){
+        return view('layouts.storagesys&units');
+    }   
+    public function tableschairs(){
+        return view('layouts.tables&chairs');
     }
 }
