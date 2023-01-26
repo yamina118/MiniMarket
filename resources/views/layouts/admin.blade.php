@@ -24,11 +24,13 @@
 
 <nav class="navbar">
     <a href="/home">home</a>
-    <a href="/about">about</a>
-    <a href="/products">products</a>
-    <a href="/review">review</a>
-    <a href="/contact">contact</a>
+    <a href="#about">about</a>
+    <a href="#products">products</a>
+    <a href="#review">review</a>
+    <a href="#contact">contact</a>
     <a href="/categories">categories</a>
+
+
 </nav>
 
 <div class="icons">
@@ -41,7 +43,7 @@
 
 <!-- header section ends -->
 
-    @yield('content');
+@yield('content');
 <!-- contact section starts  -->
 
 <section class="contact" id="contact">
@@ -113,24 +115,6 @@
 </section>
 
 <!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+   
 </body>
 </html>

@@ -12,12 +12,14 @@ use App\Http\Controllers\StaticController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/home',[StaticController::class , 'home']);
-Route::get('/categories',[StaticController::class , 'categories']);
-
-Route::get('/', function () {
-    return view('home');
+Route::get('/',function()
+{
+    return view('welcome');
 });
-
-
-
+Route::get('/home', function () {
+    return view('layouts.main');
+});
+Route::get('/dashboard','Admin\FrontendController@index');
+Route::get('/categories','Admin\CategoryController@index');
+Route::get('/add-category','Admin\CategoryController@add');
+Route::post('insert-category','Admin\CategoryController@insert');
